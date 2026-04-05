@@ -6,7 +6,7 @@ This dataset links CDC budget data — drawn from two sources across FY2026 and 
 
 Maintained by [Public Data Observatory](https://github.com/PublicDataObservatory).
 
----
+
 
 ## Contents
 
@@ -18,7 +18,7 @@ Maintained by [Public Data Observatory](https://github.com/PublicDataObservatory
 | `data-dictionary.csv` | Data dictionary for budget and RIF fields. |
 | `hhs-appropriations-repository-user-guide.rmd` | Full user guide including analytic considerations and filter reference for budget data only. |
 
----
+
 
 ## Dataset Overview
 
@@ -71,7 +71,7 @@ The FY2027 President's Budget proposes a significant structural reorganization o
 - Public Health Scientific Services
 - Viral Hepatitis, Sexually Transmitted Infections, and Tuberculosis Prevention
 
----
+
 
 ## Data Sources
 
@@ -93,7 +93,7 @@ The FY2027 President's Budget proposes a significant structural reorganization o
 
 RIF data reflects the status of CDC employees as of the data capture date following the 2025 Reduction in Force actions. Figures represent FTEs across 125 unique program/work unit combinations. RIF data is linked to both budget sources using the same program-level matching methodology.
 
----
+
 
 ## Column Reference
 
@@ -141,7 +141,7 @@ RIF data reflects the status of CDC employees as of the data capture date follow
 | `rif_unclear` | FTEs with unclear RIF status |
 | `rif_total_fte` | Total FTEs in the matched work unit |
 
----
+
 
 ## Important Caveats
 
@@ -155,7 +155,7 @@ RIF data reflects the status of CDC employees as of the data capture date follow
 
 **NCCT sub-programs are matched to their original RIF centers.** Because the National Center for Chemicals and Toxins did not exist as an organizational unit at the time of the RIF, its sub-programs are matched to the RIF center that housed them prior to the proposed reorganization (Environmental Health or Occupational Safety and Health). Some NCCT sub-programs have no RIF equivalent and will have null RIF values.
 
----
+
 
 ## License
 
@@ -164,7 +164,6 @@ This dataset is released under a Creative Commons Attribution ([CC BY 4.0](https
 **Suggested citation:**  
 > **Public Data Observatory (2026).** *CDC Budget & Workforce Reduction Dataset: FY2026–FY2027 Budget Data Linked to CDC RIF Data. Version 1.0.* Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 
----
 
 ## Contact & Contributing
 
