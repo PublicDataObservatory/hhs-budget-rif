@@ -7,7 +7,6 @@ This dataset links CDC budget data — drawn from two sources across FY2026 and 
 Maintained by [Public Data Observatory](https://github.com/PublicDataObservatory).
 
 
-
 ## Contents
 
 | File | Description |
@@ -16,8 +15,7 @@ Maintained by [Public Data Observatory](https://github.com/PublicDataObservatory
 | `hhs-appropriations-repository-fy24-fy26.csv` | Main dataset with budget data from FY24–FY26 across eight budget source types and stages. Data can be linked via the unique_id. |
 | `hhs-appropriations-source-registry.csv` | List of all sources used to create the HHS appropriations repository. |
 | `data-dictionary.csv` | Data dictionary for budget and RIF fields. |
-| `hhs-appropriations-repository-user-guide.rmd` | Full user guide including analytic considerations and filter reference for budget data only. |
-
+| `hhs-appropriations-repository-user-guide.md` | Full user guide including analytic considerations and filter reference for budget data only. |
 
 
 ## Dataset Overview
@@ -72,7 +70,6 @@ The FY2027 President's Budget proposes a significant structural reorganization o
 - Viral Hepatitis, Sexually Transmitted Infections, and Tuberculosis Prevention
 
 
-
 ## Data Sources
 
 ### Budget Data
@@ -92,8 +89,6 @@ The FY2027 President's Budget proposes a significant structural reorganization o
 - Publicly available CDC organizational charts used to link work units to budget program areas
 
 RIF data reflects the status of CDC employees as of the data capture date following the 2025 Reduction in Force actions. Figures represent FTEs across 125 unique program/work unit combinations. RIF data is linked to both budget sources using the same program-level matching methodology.
-
-
 
 ## Column Reference
 
@@ -154,7 +149,6 @@ RIF data reflects the status of CDC employees as of the data capture date follow
 **FY2027 CJ figures are proposed, not enacted.** All FY2027 rows represent the President's Budget Request and do not reflect Congressional action. Program transfers to AHA, the creation of NCCT, and any proposed eliminations or funding changes are proposals only.
 
 **NCCT sub-programs are matched to their original RIF centers.** Because the National Center for Chemicals and Toxins did not exist as an organizational unit at the time of the RIF, its sub-programs are matched to the RIF center that housed them prior to the proposed reorganization (Environmental Health or Occupational Safety and Health). Some NCCT sub-programs have no RIF equivalent and will have null RIF values.
-
 
 
 ## License
